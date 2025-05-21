@@ -29,4 +29,4 @@ jobs:
           debug: true  # optional: to see more detailed logs
       - name: Deploy to AWS
         run: |
-          aws s3 cp ./test/ s3://github-test-bucket/ --recursive
+          aws s3 cp ./test/ s3://github-test-bucket-9089/ --recursive
