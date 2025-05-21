@@ -30,3 +30,4 @@ jobs:
       - name: Deploy to AWS
         run: |
           aws s3 cp ./test/ s3://github-test-bucket-9089/ --recursive
+# Note the bucket must exist
